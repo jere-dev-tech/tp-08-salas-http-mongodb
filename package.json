@@ -1,0 +1,30 @@
+{
+  "name": "tp-08-salas-http-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "test": "node --test tests/*.test.js",
+    "format": "prettier --write \"{src,scripts}/**/*.js\"",
+    "format:check": "prettier --check \"{src,scripts}/**/*.js\"",
+    "lint": "eslint \"{src,scripts}/**/*.js\"",
+    "check": "npm run format:check && npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ejs": "^7.0.1",
+    "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^9.12.1",
+    "morgan": "^1.12.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "prettier": "^3.9.10"
+  }
+}

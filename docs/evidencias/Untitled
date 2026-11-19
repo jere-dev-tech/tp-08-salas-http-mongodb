@@ -1,0 +1,14 @@
+Código HTTP: 400 Bad Request Tiempo: ~22 ms
+
+Respuesta JSON:
+
+{  "error": "El email debe contener @."}
+La validación funciona correctamente. El servidor rechazó la solicitud con 400 Bad Request y devolvió un mensaje de error claro indicando que el email no contiene @. No se creó ninguna reserva en MongoDB.
+
+What would you like to do next?
+
+Preparar otra prueba de validación
+
+Guardar en la colección
+
+Preparar prueba de actualización
